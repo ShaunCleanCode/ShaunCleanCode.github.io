@@ -20,7 +20,7 @@ title                    : "ShaunCleanCode"
 title_separator          : "|"
 subtitle                 : "small positive action" # site tagline that appears below site title in masthead
 name                     : "Shaun"
-description              : "배워서 남주는걸 목표로 하는 블로그입니다"
+description              : "어렵게 배워서 쉽게 작성하자"
 url                      : "https://ShaunCleanCode.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -98,7 +98,7 @@ social:
 analytics:
   provider               : "google-gtag"   # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :"G-KSVXRPKNXC"
+    tracking_id          : "G-KSVXRPKNXC"
     anonymize_ip         : false # true, false (default)
 
 
@@ -106,50 +106,26 @@ analytics:
 author:
   name             : "ShaunCleanCode"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "복잡한게 공부해서 단순하게 설명하는 것이 목표!"
+  bio              : "복잡한게 공부해서 단순하게 설명하는, IT 블로그"
   location         : "San Francisco, CA"
-  email            : "shaun.on.us@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:shaun.on.us@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://shauncleancode.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/ShaunCleanCode"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/ShaunCleanCode"
+    
 
 
 # Reading Files
@@ -220,7 +196,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
 
 
 # Plugins (previously gems:)
